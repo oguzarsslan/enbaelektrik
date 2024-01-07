@@ -58,7 +58,7 @@
         <div class="container-fluid">
             <div class="row bg-alfa pos-relative">
                 <div class="col-md-6 no-padding pos-static">
-                    <div class="row-bg">
+                    <div class="row-bg home-page-image">
                         @if(isset($images))
                             @foreach($images as $image)
                                 <img src="{{ asset('images/' . $image->image) }}" alt="features bg">

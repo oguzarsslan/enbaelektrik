@@ -85,9 +85,9 @@
                                                     <span class="title">{{__('home.social_media')}}:</span>
                                                     <ul class="socials clean-list">
                                                         @if(isset($settings['facebook']))<li><a href="{{$settings['facebook']}}" target="_blank"><i class="fa fa-facebook-square"></i></a></li>@endif
-                                                        @if(isset($settings['twitter']))<li><a href="{{$settings['facebook']}}" target="_blank"><i class="fa fa-twitter"></i></a></li>@endif
-                                                        @if(isset($settings['instagram']))<li><a href="{{$settings['facebook']}}" target="_blank"><i class="fa fa-instagram"></i></a></li>@endif
-                                                        @if(isset($settings['linkedin']))<li><a href="{{$settings['facebook']}}" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>@endif
+                                                        @if(isset($settings['twitter']))<li><a href="{{$settings['twitter']}}" target="_blank"><i class="fa fa-twitter"></i></a></li>@endif
+                                                        @if(isset($settings['instagram']))<li><a href="{{$settings['instagram']}}" target="_blank"><i class="fa fa-instagram"></i></a></li>@endif
+                                                        @if(isset($settings['linkedin']))<li><a href="{{$settings['linkedin']}}" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>@endif
                                                     </ul>
                                                 </li>
                                             </ul>

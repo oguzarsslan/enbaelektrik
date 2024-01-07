@@ -19,6 +19,45 @@
     <link rel="stylesheet" type="text/css" href="/rs-plugin/css/settings.css">
     <link rel="stylesheet" type="text/css" href="/rs-plugin/css/layers.css">
     <link rel="stylesheet" type="text/css" href="/rs-plugin/css/navigation.css">
+
+    <style>
+        .navbar-logo {
+            width: 85px;
+            height: auto;
+        }
+
+        .footer-logo {
+            width: 200px;
+            height: auto;
+        }
+
+        .footer-logo-div {
+            text-align-last: end;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .navbar-logo {
+                width: 60px;
+            }
+
+            .footer-logo {
+                width: 160px;
+            }
+
+            .feature-line p {
+                padding: 0;
+            }
+
+            .home-page-image img {
+                display: none;
+            }
+
+            .footer-logo-div {
+                text-align-last: center;
+            }
+        }
+
+    </style>
 </head>
 <body>
 
